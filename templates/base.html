@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/bootstrap.css') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>OLABOT</title>
+  </head>
+  <body>
+     <!-- awal code navbar/menu -->
+    <nav class="navbar py-4 navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h1><i><b>OLABOT</b></i></h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active align-self-center">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#about_us"
+              >Tentang Kami<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="#rekomendasi1_3"
+              >Rekomendasi Produk<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item align-self-center">
+              <a class="nav-link" href="https://glowupwitholabot.wordpress.com/" target="_blank"
+              >Artikel<span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+     <!-- akhir code navbar/menu -->
+    
+   <!-- awal code hero -->
+    <section class="herobwa mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center"> 
+            <h1 class="mb-4">Olabot Your <br> Oily Skin's Bestie</h1>
+            <p class="mb-4">
+              Bingung mau perawatan kulit tapi gak paham cara dan skincare yang cocok? Olabot Solusinya! 
+
+              <br> Temukan solusi dan rekomendasi produk hanya di Olabot!
+            </p>
+            <p> Untuk berkonsultasi sahabat bisa mengklik buble chat di pojok kanan!</p>
+          </div>
+          <div class="col d-none d-sm-block">
+            <img
+              width="500"
+              src="{{ url_for('static', filename='images/picturelandingpage.jpg') }}" 
+              alt="Skin care photo"
+            />
+          </div>
+        </div>
+      </div>
+       <!-- akhir code hero -->
+      
+      <!-- awal code chatboot -->
+      <div class="container">
+        <div class="chatbox">
+          <div class="chatbox__support">
+            <div class="chatbox__header">
+              <div class="chatbox__image--header">
+                <img
+                  src="static\images\support.png"
+                  alt="image"
+                  
+                />
+              </div>
+              <div class="chatbox__content--header">
+                <h4 class="chatbox__heading--header">Olabot</h4>
+                <h5 class="chatbox__description--header">
+                  Hi. Nama saya Ola. Ada yang bisa ku bantu?
+                </h5>
+              </div>
+            </div>
+            <div class="chatbox__messages">
+              <div></div>
+            </div>
+            <div class="chatbox__footer">
+              <input type="text" placeholder="Write a message..." />
+              <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+          </div>
+          <div class="chatbox__button">
+            <button>
+              <img
+                src="{{ url_for('static', filename='images/chat.png') }}"
+                width="75"
+                alt="chat"
+                
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+       <!-- akhir code chatboot -->
+    </section>
+
+   <pre>
+
+
+
+   </pre>
+
+<section>
+  <h4 style="background-color: #aad9f4; border: 2px double #ffffff; 
+  padding: 15px; text-align: center;">Let's Get To Know More About <br> How To Taking Care of Your Skin </h5>
+  
+</section>
+
+<section>
+  <br>
+  
+  <div class="video-container">
+
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/OU0GGlTJ1aI">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/hNvf_zxbx9o">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/ERoGLOEiWDk">
+    </iframe>
+  
+    <br>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/W_b56skgxcc">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/CFNs_OMFpi4">
+    </iframe>
+  
+    <iframe width="500" height="410"
+    src="https://www.youtube.com/embed/WaMUOyWJq24">
+    </iframe>
+  </div>
+</section>
+
+<section class="rekomendasi1_3" id="rekomendasi1_3">
+  <h4 style="background-color: #aad9f4; border: 2px double #ffffff; 
+  padding: 15px; text-align: center;">Rekomendasi Produk</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Rekomendasi Produk Exfoliating</h5>
+            <p class="card-text">
+            
+            </p>
+            <a href="static\images\Rekomendasi Produk - Exfoliating.png" class="btn btn-primary" target='_blank'>Exfoliating</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title">Rekomendasi Produk Facial Wash</h5>
+            <p class="card-text">
+              </p>
+            <a href="static\images\Rekomendasi Produk - Facial Wash.png" class="btn btn-primary"target='_blank'>Facial Wash</a>
+    </div>
+   
+  </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      
+      <div class="card-body">
+        <h5 class="card-title">Rekomendasi Hydrating Toner</h5>
+        <p class="card-text">
+          
+        </p>
+        <a href="static\images\Rekomendasi Produk - Hydrating Toner.png" class="btn btn-primary" target='_blank'>Hydrating Toner</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="rekomendasi4_6" id="rekomendasi4_6">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        
+        <div class="card-body">
+          <h5 class="card-title">Rekomendasi Produk Moisturizer</h5>
+          <p class="card-text">
+            
+          </p>
+          <a href="static\images\Rekomendasi Produk - Moisturizer.png" class="btn btn-primary" target='_blank'>Moisturizer</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        
+        <div class="card-body">
+          <h5 class="card-title">Rekomendasi Produk Retinol</h5>
+          <p class="card-text">
+            </p>
+            <a href="static\images\Rekomendasi Produk - Retinol.png" class="btn btn-primary" target='_blank'>Retinol</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        
+        <div class="card-body">
+          <h5 class="card-title">Rekomendasi Produk Sunscreen</h5>
+          <p class="card-text">
+            
+          </p>
+          <a href="static\images\Rekomendasi Produk- Sunscreen.png" class="btn btn-primary" target='_blank'>Sunscreen</a>
+        </div>
+      </div>
+</section>
+
+<section>
+  <div class="about-section">
+    <h1 id="about_us">About Us</h1>
+    <p>Hallo! Selamat datang di Olabot.
+      Olabot merupakan platform konsultasi skincare yang dibuat untuk membantu orang-orang yang mempunyai tipe kulit berminyak. <br>
+      Di platform ini sahabat bisa berkonsultasi melalui chatbot kami tentang permasalah yang dialami oleh tipe kulit wajah berminyak dan mendapatkan informasi dari (artikel) dan video youtube yang kami rekomendasikan. 
+     <br>
+    <p>Credit by:
+    <a style= "color:#DBDFFD"; href='https://www.freepik.com/photos/skin-care'><br>Skin care photo created by freepik - www.freepik.com</a>
+    <a style= "color:#DBDFFD"; href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Freepik - Flaticon</a>
+    <a style= "color:#DBDFFD"; href="https://www.flaticon.com/free-icons/chat-box" title="chat box icons">Chat box icons created by Freepik - Flaticon</a></p>
+  </div>
+</section>
+
+    <script>
+      $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static', filename='app.js') }}"
+    ></script>
+  </body>
+</html>

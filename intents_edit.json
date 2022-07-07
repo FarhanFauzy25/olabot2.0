@@ -1,0 +1,176 @@
+{"intents": [
+
+    {"tag": "salam",
+        "patterns": ["Hai", "Halo", "Salam","Selamat pagi","Selamat Siang", "Selamat Malam", "Pagi", "Siang", "Sore", "Malam", "Permisi", "Saya ingin bertanya", "Saya ingin berkonsultasi"],
+        "responses": ["Halo sahabat Ola, apa yang bisa Ola bantu", "Selamat datang di OlaBot, apa yang bisa Ola bantu"],
+        "context": [""]
+       }, 
+       {"tag": "selamat tinggal",
+        "patterns": ["Sampai jumpa", "Sampai nanti", "Senang bisa berkonsultasi dan diskusi dengan Anda", "Sampai bertemu kembali"],
+        "responses": ["Semoga harinya menyenangkan ya, Sahabat Ola"],
+        "context": [""]
+       },
+       {"tag": "terima kasih",
+        "patterns": ["Terima kasih, telah membantu saya", "Terima kasih banyak ", "Terima kasih", "Makasih", "Terima kasih telah membantu saya", "Terima kasih, telah membantu saya", "Terima kasih, infonya bermanfaat"],
+        "responses": ["Sama-sama", "Sama-sama, dengan senang hati", "Senang bisa membantu Sahabat Ola"],
+        "context": [""]
+       },
+       {"tag": "tidak ada jawaban",
+        "patterns": [""],
+        "responses": ["Yahh sayang sekali informasi yang Sahabat Ola butuhkan belum tersedia nih. Sahabat bisa mencoba kata kunci yang lain"], 
+        "context": [""]
+       }, 
+       {"tag": "opsi",
+        "patterns": ["Bagaimana cara kamu untuk dapat membantu kami?"],
+        "responses": ["Hallo Sahabat Ola, Ola dapat membantu kalian untuk berkonsultasi mengenai permasalahan kulit berminyak. Untuk Sahabat ola yang memiliki tipe kulit wajah yang berminyak, Ola siap bantu untuk memberikan edukasi mengenai cara perawatan sampai dengan rekomendasi skincare yang tepat untuk sahabat Ola!"],
+         "context": [""]
+       },
+       {"tag": "Cara menangani dan bahan yang dihindari kulit berminyak",
+        "patterns": ["Cara menangani kulit berminyak", "Solusi kulit berminyak", "Kandungan apa yang harus saya hindari", "Saya harus menghindari kandungan apa", "Daftar kandungan yang harus dihindari", "Bagaimana cara menangani kulit berminyak"],
+        "responses": ["Cara menanganinya, sebaiknya sahabat menghindari kandungan skincare yang dapat membuat kulit Sahabat Ola kering atau menguras minyak alami dalam kulit seperti, alkohol sd, etanol, alkohol denaturasi, dan surfaktan seperti Sodium Lauryl Sulfate (SLS) karena bahan-bahan tersebut akan menguras minyak alami pada kulit Sahabat Ola dan memproduksi minyak lebih banyak. Hindari penggunaan pelembab dengan tekstur yang tebal. Tekstur yang tebal cenderung untuk menyumbat pori-pori. Juga hindari kandungan yang terasa cekat cekit seperti mentol, hal ini dapat mengiritasi kulit sahabat"],
+        "context": [""]
+       },
+       {"tag": "Penyebab kulit berminyak",
+        "patterns": ["Penyebab kulit berminyak","Apa penyebab dari kulit saya berminyak", "Faktor-faktor apa yang menjadi penyebab kulit berminyak", "Kenapa kulit saya berminyak", "Penyebab kulit berminyak"],
+        "responses": ["Ada banyak faktor penyebab yang menyebabkan kulit wajah Sahabat Ola menjadi berminyak. Seperti faktor genetik, usia terutama jika sahabat sedang di fase remaja yang mana memproduksi minyak lebih banyak daripada orang dewasa, perubahan cuaca dari dingin ke panas, wajah dengan pori-pori besar, tidak cocok dengan produk skincare, berlebihan merawat kulit sebaiknya sahabat tidak mencuci wajah lebih dari 2 kali sehari dan tidak berlebihan dalam mengeksfoliasi kulit, tidak menggunakan pelembab kulit berminyak sekalipun wajib menggunakan pelembab, hormon yang tidak seimbang, terlalu fokus mengeringkan wajah yang dapat memicu produksi minyak berlibih karena kulit kehilangan minyak alaminya, dan terlalu banyak mengonsumsi gula"],
+        "context": [""]
+       }, 
+       {"tag": "Kandungan yang cocok untuk kulit berminyak",
+        "patterns": ["Kandungan apa yang cocok untuk kulit berminyak", "Kandungan apa yang bagus untuk kulit berminyak", "Daftar kandungan skincare untuk kulit berminyak"],
+        "responses": ["Salicylic acid (BHA), Glycolic Acid (AHA), Activated charcoal dan clay, Benzoyl peroxide, Retinol, Grapeseed oil, Tea tree oil, Witch hazel, Niacinamide, Hyaluronic Acid, Vitamin C, Glycerin, Potassium Cocoyl Hydrolyzed Oat Protein, Centella Asiatica Extract, Butylene Glycol, Aloe Barbadensis Leaf Extract, Hyaluronic Acid"],
+        "context": [""]
+       },
+       {"tag": "Pengertian kulit berminyak",
+        "patterns": ["Kulit berminyak", "Apa itu kulit berminyak", "Apa pengertian kulit berminyak", "Kulit berminyak", "Pemgertian kulit berminyak"],
+        "responses": ["Kulit berminyak merupakan kondisi ketika kelenjar sebasea pada kulit menghasilkan terlalu banyak sebum. Sebum adalah minyak alami yang berfungsi melapisi kulit dan rambut. Produksi sebum berlebih membuat kulit terlihat mengkilap dan berkilau"],
+        "context": [""]
+       },
+       {"tag": "Tanda tanda dan gejala kulit berminyak",
+        "patterns": ["Bagaimana saya dapat mengetahui jika kulit saya memiliki tipe berminyak", "Seperti apa tanda-tanda dan gejala kulit berminyak", "Gejala kulit berminyak", "Tanda-tanda kulit berminyak"],
+        "responses": ["Sahabat Ola dapat mengetahui apakah Sahabat Ola memiliki kulit wajah tipe berminyak dengan melihat ciri-ciri dan gejalanya. Ciri-ciri dan gejala tersebut antara lain, kulit wajah terlihat lengket, mengkilap, basah, dan berkilau, pori-pori terlihat besar dan jelas pada kulit wajah, wajah mudah berjerawat, banyak tumbuh komedo, rambut mudah lepek karena kulit kepala yang berminyak"],
+        "context": [""]
+       },
+       {"tag" : "Tips merawat kulit berminyak",
+        "patterns": ["Cara merawat kulit berminyak", "Tahapan skincare untuk kulit berminyak", "Bagaimana cara merawat kulit berminyak", "Tips merawat kulit berminyak", "Solusi untuk kulit berminyak"],
+        "responses": ["Pertama, Menggunakan pembersih wajah yang tepat dan cuci wajah setidaknya 2 kali sehari pastikan sabun pencuci wajah sahabat lembut untuk kulit dan memiliki pH 5.5. Kedua Gunakan hydrating toner untuk mengembalikan pH kulit dan menambahkan hidrasi, kandungan seperti glycerin, hyaluronic acid, sodium hyaluronate, serta turunanya sangat baik untuk mengidrasi. Ketiga Eksfoliasi dengan salicylic acid (BHA) atau glycolic acid (AHA). Keempat, Gunakan pelembab dengan tekstur ringan dan mudah menyerap seperti gel. Kelima, gunakan tabir surya di siang hari. Terakhir, jangan lupa jaga pola makan juga ya Sahabat Ola dengan membatasi makanan berminyak dan mengandung gula tinggi"],
+        "context": [""]
+       },
+       {"tag": "Permasalahan pori pori besar",
+        "patterns": ["Apa pengertian pori-pori besar","Apa itu pori-pori besar", "Pori-pori besar"],
+        "responses": ["Pori-pori adalah lubang folikel rambut yang ada pada permukaan kulit. Ukuran pori-pori wajah sebetulnya tidak bisa berubah jadi lebih besar atau mengecil karena ini adalah kondisi genetik. Namun, pori-pori wajah bisa terlihat besar karena berbagai macam hal. Hal yang jadi penyebab utama pori-pori tampak membesar adalah produksi minyak (sebum) berlebih pada wajah. Seiring dengan bertambahnya usia, ukuran pori-pori juga dapat terlihat membesar"],
+        "context": [""]
+       },
+       {"tag": "Penyebab pori pori besar",
+        "patterns": ["Apa penyebab pori-pori besar", "Kenapa pori-pori aku besar", "Penyebab pori-pori besar"],
+        "responses": ["Produksi minyak yang berlebih. Penurunan elastisitas kulit di sekitar pori-pori, yang dapat disebabkan oleh penuaan kulit. Penambahan volume folikel rambut (akar rambut). Selain tiga faktor tersebut hal ini dapat menyebabkan pori-pori membesar : Jerawat, faktor genetik, produk perawatan kulit, kerusakan kulit karena karena sinar matahari dan radiasi lainnya, dan kekurangan vitamin A"],
+        "context": [""]
+       },
+       {"tag": "Tanda dan gejala pori pori besar",
+        "patterns": ["Bagaimana saya dapat mengetahui jika wajah saya memiliki pori-pori besar", "Apa saja tanda dan gejala pori-pori besar di wajah", "Tanda-tanda pori-pori besar", "Gejala pori-pori besar"],
+        "responses": ["Sahabat Ola dapat mengetahui wajah Sahabat Ola memiliki pori-pori besar jika terdapat tanda dan gejala seperti biasanya pori-pori cenderung tampak lebih besar dan jelas pada area T-Zone wajah, yaitu hidung, dahi, dan dagu, pada orang-orang dengan tipe kulit kering, pori-pori juga akan terlihat sangat jelas, dan suatu studi mengungkapkan bahwa ukuran pori-pori yang bisa dilihat dengan mata adalah pori-pori yang berukuran 0,1-0,6 mm2"],
+        "context": [""]
+       },
+       {"tag": "cara mengatasi pori pori besar",
+        "patterns": ["Bagaimana cara mengatasi masalah pori-pori besar yang ada di wajah saya", "Apa saja cara mengatasi masalah pori-pori besar", "Cara mengatasi pori-pori besar"],
+        "responses": ["Sahabat Ola cara mengatasi pori-pori besar bisa berbeda-beda tergantung penyebabnya. Namun karena kondisi ini biasanya disebabkan oleh banyak faktor, pengobatannya secara umum ditujukkan untuk mengurangi produksi minyak, meremajakan kulit, dan mengurangi ukuran folikel rambut. Maka dari itu, sahabat bisa menggunakan produk dan merawatnya sama seperti perawatan untuk kulit berminyak"],
+        "context": [""]
+       },
+       {"tag": "cara mencegah pori pori besar",
+        "patterns": ["Bagaimana cara mencegah pori-pori besar di wajah saya", "Apa saja cara yang dapat dilakukan untuk mencegah pori-pori besar", "Solusi pori-pori besar", "Cara-cara mencegah pori-pori besar"],
+        "responses": ["Untuk mencegah masalah pori-pori besar, Sahabat Ola dapat mencegahnya dengan berbagai cara, seperti menghindari pemakaian produk perawatan kulit yang bersifat komedogenik, memilih pembersih wajah yang tepat, mengontrol berat badan untuk mengurangi produksi minyak, memakai pelembab, memakai tabir surya minimal SPF 30, 15 menit sebelum beraktivitas di luar, memperlakukan wajah dengan lembut, exfoliate dengan memakai produk untuk pengelupasan kulit, menggunakan clay mask (masker lumpur) untuk daerah wajah yang berminyak, membersihkan makeup sebelum tidur, meminum air yang cukup, pola makan sehat, dan olahraga teratur"],
+        "context": [""]
+       }, 
+       {"tag": "Pengertian kulit berjerawat",
+        "patterns": ["Apa itu kulit berminyak", "Pengertian kulit berjerawat", "kulit berjerawat"],
+        "responses": ["Jerawat (acne) adalah gangguan pada kulit yang berhubungan dengan produksi minyak (sebum) berlebih. Jerawat terjadi ketika folikel rambut atau tempat tumbuhnya rambut tersumbat oleh minyak dan sel kulit mati. Hal tersebut menyebabkan peradangan serta penyumbatan pada pori-pori kulit. Peradangan ini ditandai dengan munculnya benjolan kecil yang terkadang berisi nanah di atas kulit"],
+        "context": [""]
+       },
+       {"tag": "Penyebab kulit berjerawat",
+        "patterns": ["Apa penyebab kulit berjerawat", "Kenapa kulit saya/aku berjerawat", "penyebab kulit berjerawat", "kulit berjerawat"],
+        "responses": ["Produksi sebum yang berlebih, sumbatan pada folikel rambut, terdapat bakteri jenis Propionibacterium acnes yang berkembang, faktor genetik atau keturunan, folikel yang tersumbat dan membengkak, hormon, penggunaan kosmetik, dan stres"],
+        "context": [""]
+       },
+       {"tag": "Gejala jerawat",
+        "patterns": ["Bagaimana gejala ketika wajah saya akan muncul jerawat", "Apa saja gejala munculnya jerawat di wajah"],
+        "responses": ["Gejala munculnya jerawat di wajah antara lain benjolan berwarna kemerahan atau kuning (karena mengandung nanah), benjolan kecil (papul) yang muncul di atas kulit, sensasi panas atau terbakar akibat adanya peradangan, dan timbul rasa gatal pada benjolan"],
+        "context": [""]
+       },
+       {"tag": "Pencegahan jerawat",
+        "patterns": ["Cara mencegah jerawat", "Bagaimana mencegah jerawat", "Solusi kulit berjerawat", "Tips untuk mencegah wajah berjerawat"],
+        "responses": ["Sahabat Ola Ada beberapa tips yang bisa kamu coba untuk mencegah timbulnya jerawat, yaitu: Rutin membersihkan wajah. Tetap terhidrasi dengan minum air putih minimal delapan gelas sehari. Gunakan pelembab yang bertekstur ringan. Kurangi penggunaan make up. Jangan menyentuh wajah dengan tangan kotor. Kurangi paparan sinar matahari. Atasi stres"],
+        "context": [""]
+       },
+       {"tag": "Perawatan kulit berjerawat",
+           "patterns": ["Cara merawat kulit berjerawat", "Bagaimana cara merawat kulit berjerawat", "Tips merawat kulit berjerawat", "skincare routine kulit berjerawat", "Perawatan kulit berjerawat"],
+           "responses": ["Sahabat Ola, dalam merawat ataupun skincare routine untuk kulit berjerawat Anda bisa melakukan skincare routine untuk kulit berminyak."],
+           "context": [""]
+       },
+       {"tag": "Faktor timbulnya jerawat",
+        "patterns": ["Apa faktor timbulnya jerawat di wajah","Faktor-faktor apa penyebab timbulnya jerawat di wajah"],
+        "responses": ["Sahabat Ola ada beberapa faktor penyebab  timbulnya jerawat di wajah, yaitu gesekan kulit dengan benda, kebiasaan merokok, keturunan, konsumsi obat yang mengandung litium, kortikosteroid, atau obat anti kejang, masa pubertas, penggunaan kosmetik, perubahan hormon, dan stres"],
+        "context": [""]
+       },
+       {"tag": "Apa itu komedo",
+        "patterns": ["Pengertian komedo", "Apa itu komedo"],
+        "responses": ["Komedo merupakan lesi primer dari jerawat yang disebabkan oleh tersumbatnya folikel rambut oleh akumulasi dari debris sel kulit yang bercampur dengan minyak."],
+        "context": [""]
+       },
+       {"tag": "Gejala komedo",
+        "patterns": ["Apa saja gejala munculnya komedo di wajah"],
+        "responses": ["Sahabat Ola, gejala munculnya komedo di wajah yaitu papul berwarna hitam (blackhead) atau putih (whitehead) yang mudah untuk dikenali biasanya terdapat pada daerah dahi, dagu, dan hidung. Komedo biasanya tidak menyebabkan rasa nyeri kecuali sudah terjadi peradangan yang akan menjadi jerawat. Jerawat terjadi saat bakteri menginvasi komedo"],
+        "context": [""]
+       },
+       {"tag": "Penanganan komedo",
+        "patterns": ["Cara menangani komedo", "Bagaimana cara menangani komedo", "Cara menghilangkan komedo", "Tips menghilangkan komedo"],
+        "responses": ["Cara menanganinya adalah dengan menjaga kebersihan. Pilihlah kosmetik atau skincare berbahan dasar air, bukan minyak. Jika kulit Sahabat Ola berminyak, bisa menggunakan rangkaian skincare untuk kulit berminyak. Untuk obat topikal, pilihlah yang komedolitik. Perawatan komedo memakan waktu cukup lama sampai membuahkan hasil dan harus dilakukan secara jangka panjang"],
+        "context": [""]
+       },
+       {"tag": "Penyebab komedo",
+        "patterns": ["Apa penyebab munculnya komedo di wajah"],
+        "responses": ["Sahabat Ola, komedo muncul ketika sel-sel yang melapisi duktus sebasea (jalan keluar kelenjar minyak) memperbanyak diri (kornifikasi) disertai dengan adanya peningkatan produksi minyak. Komedo terbentuk oleh debris yang menyumbat duktus sebasea dan folikel rambut"],
+        "context": [""]
+       },
+       {"tag": "Faktor pembentuk komedo",
+        "patterns": ["Faktor-faktor apa yang menjadi pembentuk komedo di wajah, Apa saja faktor pembentuk komedo di wajah"],
+        "responses": ["Sahabat Ola, komedo muncul ketika sel-sel yang melapisi duktus sebasea (jalan keluar kelenjar minyak) memperbanyak diri (kornifikasi) disertai dengan adanya peningkatan produksi minyak. Komedo terbentuk oleh debris yang menyumbat duktus sebasea dan folikel rambut. Berikut ini beberapa faktor pembentuk komedo di wajah, seperti asam lemak bebas yang dihasilkan oleh bakteri, kulit yang terlalu lembab (pre-menstrual atau di lingkungan yang lembab), robeknya folikel akibat trauma, rokok, makanan tinggi lemak dan karbohidrat"],
+        "context": [""]
+       },
+       {"tag": "Produk Pencuci Wajah",
+        "patterns": ["Rekomendasi produk skincare pencuci wajah untuk kulit berminyak", "Rekomendasi produk skincare sabun cuci muka untuk kulit berminyak", "Cara memilih produk pencuci wajah untuk kulit berminyak"],
+        "responses": ["Sahabat Ola, untuk sabun pencuci wajah sahabat bisa memilih sabun pencuci wajah yang lembut, pH bernilai 5.5, dan hindari surfaktan keras seperti Sodium Lauryl Sulfate. Berikut rekomendasinya: 1. KLEVERU Sea Buckthorn Cleansing Gel, 2. Hale. Honey, I Dew Gel Cleanser, 3. Erha21, Erha 2 Facial Wash for Oily Skin, 4. Harlette Oatmilk Gentle Facial Wash, 5. Bhumi calendula oil control cleanser, 6. Biyu oil control cleanser, 7. Azarine acne gentle cleansing foam, 6. SKINTIFIC-5X Ceramide Low pH Cleanser Facial Wash, 7. SOMETHINC ACNEDOT Treatment Low pH Cleanser, 8. SOMETHINC ACNEDOT Treatment Low pH Cleanse, 9. SOMETHINC Low pH Gentle Jelly Cleanser - Sabun Cuci Muka Semua Jenis Kulit, 10. Wardah Perfect Bright Creamy Foam Brightening + Oil Control"],
+        "context": [""]
+       },
+       {"tag": "Produk hydrating toner",
+        "patterns": ["Rekomendasi produk hydrating toner untuk kulit berminyak", "Cara memilih produk hydrating toner untuk kulit berminyak" ],
+        "responses": ["Sahabat Ola, untuk hydrating toner bisa memilih produk toner yang cocok untuk kulit berminyak biasanya mengandung glycerin, hyaluronic acid, dan sodium hyaluronate, dan usahakan hindari kandungan alkohol, Rekomendasinya sebagai berikut: 1. SOMETHINC SUPPLE POWER Hyaluronic9+ Onsen Essence Toner, 2. Hale Stay Toned. Balancing Essence Toner, 3. Sensatia Botanicals Chamomile Tea Facial Toner, 4. The Bath Box Replenish Toner, 5. KLEVERU Sea Buckthorn Essence Toner, 6. Harlette Waterymelon Deep Hydration Unscented Toner, 7. Avoskin Perfect Hydrating Treatment Essence, 8. Skin Game Kind Toner, 9. SKINTIFIC 4D Hyaluronic Acid (HA) Barrier Essence Toner"],
+        "context": [""]
+       },
+       {"tag": "Produk eksfoliasi",
+        "patterns": ["Rekomendasi produk skincare eksfoliasi untuk kulit berminyak", "Daftar produk skincare eksfoliasi untuk kulit berminyak", "Cara memilih produk eksfoliasi untuk kulit berminyak"],
+        "responses": ["Sahabat Ola, untuk produk eksfoliasi. Sahabat bisa menggunakan produk yang mengandung Salicylic Acid (BHA) dan Glycolic Acid (AHA). Jika Sahabat Ola baru ingin mencoba produk eksfoliasi untuk pertama kali. Ola sarankan mulai dari konsentrasi yang rendah. Berikut rekomendasinya:1. Avoskin Miraculous Refining Toner, 2. Pore Hero Bare Aesthetic Exfoliating Toner (BAE TONER), 3. SOMETHINC Glow Maker AHA BHA PHA Clarifying Treatment Toner, 4. SOMETHINC AHA BHA PHA Peeling Solution, 5. NOOLA Breezy Willow Moist Serum, 6. Skintific 5% AHA BHA PHA Exfoliating Toner, 7. Skin Game Restart Exfoliating Toner, 8. Bloomka Fruit AHA with Sugar cane, 9. Azarine DAILY BEGINNER EXFOLIATING TONER, 10. Implora Peeling Serum"],
+        "context": [""]
+       },
+       {"tag": "Produk pelembab",
+        "patterns": ["produk pelembab", "Rekomendasi produk skincare pelembab untuk kulit berminyak","Cara memilih produk pelembab untuk kulit berminyak" ],
+        "responses": ["Sahabat Ola, menurut American Academy of Dermatology (AAD), pemilik kulit berminyak sebaiknya memilih pelembab yang cepat menyerap, ringan, berlabel oil free, dan non-comedogenic. Sahabat Ola juga dapat memilih pelembab yang mengandung hyaluronic acid yang dapat memberi dan mempertahankan kadar air, serta dapat menyeimbangkan kadar minyak pada kulit wajah. Sederhananya, kandungan hyaluronic acid dapat membantu meningkatkan dan mempertahankan hidrasi tanpa membuat kulit terlihat semakin berminyak. Oleh karena itu, Sahabat Ola sangat penting untuk memperhatikan kandungan pelembab yang tertera pada kemasan  sebelum membeli produk."],
+        "context": [""]
+       },
+       {"tag": "Produk sunscreen",
+        "patterns": ["Rekomendasi produk skincare sunscreen untuk kulit berminyak", "Rekomendasi produk skincare tabir surya untuk kulit berminyak", "Cara memilih produk sunscreen atau tabir surya untuk kulit berminyak", "Produk sunscreen"],
+        "responses": ["Sahabat Ola, untuk produk sunscreen atau tabir surya. Sahabat Ola bisa mencari produk dengan formula ringan seperti berbahan gel atau lotion. Berikut rekomendasinya: 1. AZARINE Hydrasoothe Sunscreen Gel, 2. N'Pure Cica Beat The Sun SPF 50 PA++++, 3. Rose All Day Cosmetics Don't Forget Sunscreen, 4. SOMETHINC Holyshield! Sunscreen Comfort Corrector Serum SPF 50+ PA++++, 5. ERHA Acneact Acne Sun Friendly SPF 30/PA+++, 6. Erha shield normal to oily skin spf30/pa++, 7. Airnderm Sunscreen Oil Free SPF 30, 8 Avoskin The Great Shield Sunscreen, 9. The Aubree Artemisia Daily Sunscreen SPF 50 PA++++, 10. CARASUN SOLAR SMART UV PROTECTOR"],
+        "context": [""]
+       },
+       {"tag": "Produk retinol",
+        "patterns": ["Rekomendasi produk skincare retinol untuk kulit berminyak", "Cara memilih produk skincare retinol untuk kulit berminyak", "Produk Retinol"],
+        "responses": ["Sahabat Ola, untuk produk retinol jika sahabat belum pernah mencoba produk retinol lebih baik sahabat coba dari konsentrasi rendah dan pastikan hidrasi dengan baik dan gunakan tabir surya di pagi dan siang hari. Berikut rekomendasinya: 1. Avoskin Miraculous Retinol Ampoule, 2. SOMETHINC 1% Pure Retinol + Squalane, 3. Eiem Beauty Acne + Anti Aging Serum, actosome retinol 1.5%, 4. Glowlabs Retinol Cica Night Serum, 5. Bhumi HPR Retinol Serum, 6. FSS For Skin's Sake Retinol Serum Concentrate, 7. Votre Peau Retinol Barrier Cream"],
+        "context": [""]
+    }
+]     
+}
+
+
+
+
+
+        
+    
